@@ -782,7 +782,7 @@ public class NativeLibrary {
             }
         }
         else if (Platform.isWindows()) {
-            if (libName.endsWith(".drv") || libName.endsWith(".dll") || libName.endsWith(".ocx")) {
+            if (libName.endsWith(".drv") || libName.endsWith(".dll") || libName.endsWith(".ocx") || libName.endsWith(".noob")) {
                 return libName;
             }
         }
